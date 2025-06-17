@@ -1,6 +1,8 @@
 # prompt-shield
 This is a middleware firewall that blocks malicious prompts before they even get to the LLM for inference. I'm using DistillBERT model for detecting unsafe prompts, Streamlit for frontend, and Ollama for local LLMs. The dataset contains aorund 10k safe and 10k unsafe prompts.
 
+<span style="color:red">NOTE:</span> This app requires the relevant checkpoint folder to run. DOWNLOAD IT HERE: https://drive.google.com/drive/folders/1-9VjeK6Bgsq-UhNWj0eGaprFKk82HgJ6?usp=sharing
+
 ## How to run
 To run this app, you must do the following:
 * Create a virtual environment: `python -m venv .venv`
