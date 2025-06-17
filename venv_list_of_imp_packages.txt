@@ -1,0 +1,17 @@
+NOTE: For ROCm support, downgrade to NumPy version 1.26.4 and follow documentation on how to install ROCm supported PyTorch.
+
+- numpy==1.26.4
+- datasets
+- transformers
+- matplotlib
+- ipykernel
+- pandas
+- scikit-learn
+- accelerate>=0.26.0 (`pip install 'accelerate>=0.26.0'` ; make sure to add apostrophe/quotation marks)
+- streamlit
+- ollama
+- jsonlines
+- torch
+
+OPTIONAL:
+- IPython (for Markdown)
